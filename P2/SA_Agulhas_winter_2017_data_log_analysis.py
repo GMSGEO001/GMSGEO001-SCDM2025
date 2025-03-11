@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-sa_agulhas_ship_log_data = pd.read_csv('../../Downloads/SAA2_WC_2017_metocean_10min_avg.csv')
+sa_agulhas_ship_log_data = pd.read_csv('SAA2_WC_2017_metocean_10min_avg.csv')
 sa_agulhas_ship_log_dataframe = pd.DataFrame(sa_agulhas_ship_log_data)
 
 #index data frame using 'TIME_SERVER' date time column
