@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-ctd_data_with_headers = pd.read_csv('20081129_0652_CTD_output.csv')
+ctd_data_with_headers = pd.read_csv('../P1/20081129_0652_CTD_output.csv')
 
 ctd_dataframe = pd.DataFrame(ctd_data_with_headers)
 
